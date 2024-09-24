@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+    /* Come back and add Roboto */
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.logo {
+    color:#E5E7EB;
+    font-size: 12px;
+}
+
+.header-flex-container {
+    background-color: #1F2937; 
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    padding:48px 96px 48px 96px;
+    justify-content: center;
+}
+
+.logo-links {
+    display: flex;
+    justify-content: space-between;
+    /* height: 120px; */
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+
+.links-right {
+    display: flex;
+    gap:20px;
+    /* padding: 48px; */
+}
+
+.links-right a {
+ font-size: 18px;
+ color: #E5E7EB;
+ text-decoration: none;
+}
+
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
+
+.intro-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: center; */
+    flex: 1;
+    max-width: 400px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    height:auto;
+    width:100px;
+    padding:10px;
+    text-align: center;
+    
+}
+
+button a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.intro-image img {
+    height:150px;
+    width:300px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+}
